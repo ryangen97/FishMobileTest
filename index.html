@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | AR-API</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/BuildTestMobileSplit.loader.js"></script>
+    <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: #231F20"></canvas>
+    <script src="Build/BuildTestMobileSplit1920.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/BuildTestMobileSplit.data",
-        frameworkUrl: "Build/BuildTestMobileSplit.framework.js",
-        codeUrl: "Build/BuildTestMobileSplit.wasm",
+        dataUrl: "Build/BuildTestMobileSplit1920.data",
+        frameworkUrl: "Build/BuildTestMobileSplit1920.framework.js",
+        codeUrl: "Build/BuildTestMobileSplit1920.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "AR-API",
